@@ -1,0 +1,118 @@
+
+
+.footer {
+    background-color: #14213d; /* Warna biru dongker */
+    padding: 40px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+
+  /* Grid untuk membagi section */
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  /* Style judul section */
+  .footer-section h3 {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  /* Garis merah di bawah judul */
+  .footer-section h3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #f94144; /* Warna merah */
+    margin-top: 8px;
+  }
+
+  /* Style list untuk tiap section */
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+
+  /* Style link */
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-section a:hover {
+    color: #f94144;
+  }
+
+  /* Style untuk icon media sosial */
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .social-icons img {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+  }
+
+  /* Style untuk form subscribe */
+  .subscribe input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .subscribe input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f94144; /* Warna merah */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .subscribe input[type="submit"]:hover {
+    background-color: #d73539;
+  }
+
+  /* Style untuk bagian Career */
+  .career-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .career-item img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .career-item h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #f94144; /* Warna merah */
+  }
+
+  .career-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
